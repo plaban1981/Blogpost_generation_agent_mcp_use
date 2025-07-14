@@ -2,6 +2,9 @@
 
 A comprehensive research automation system that combines **Linkup MCP** for deep web search and **Ollama DeepSeek** for intelligent research note generation.
 
+<img width="1390" height="868" alt="image" src="https://github.com/user-attachments/assets/1638e609-72b8-42db-a393-b09050069c60" />
+
+
 ## 🚀 Features
 
 - **Deep Web Search**: Uses Linkup MCP server for comprehensive web research
@@ -36,14 +39,8 @@ Edit the `.env` file and add your Linkup API key:
 LINKUP_API_KEY=your_actual_linkup_api_key_here
 ```
 
-### 3. Verify Installation
-```bash
-# Check if Ollama is working
-ollama list
+<img width="806" height="840" alt="image" src="https://github.com/user-attachments/assets/c07d8506-4098-435e-9bf0-1e5df5afab0e" />
 
-# Check if the model is available
-ollama show deepseek-r1:7b
-```
 
 ## 🎯 Usage
 
@@ -119,7 +116,7 @@ The generated research notes include:
 }
 ```
 
-### Ollama Model Configuration
+### Groa Model Configuration
 - **Model**: deepseek-r1:7b
 - **Temperature**: 0.3 (for consistent, focused output)
 - **Max Steps**: 50 (for comprehensive research)
