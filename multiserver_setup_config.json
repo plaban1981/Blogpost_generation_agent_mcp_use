@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "linkup": {
+      "command": "uvx",
+      "args": ["mcp-search-linkup"],
+      "env": {
+        "LINKUP_API_KEY": "your_linkup_api_key"
+      }
+    },
+    "filesystem": {
+      "command": "C:\\Program Files\\nodejs\\npx.cmd",
+      "args": [
+        "@modelcontextprotocol/server-filesystem",
+        "./filestore"
+      ]
+    }
+  }
+}
